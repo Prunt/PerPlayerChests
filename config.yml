@@ -1,0 +1,17 @@
+# database:
+#   type: mysql or sqlite
+#   username: name of the mysql database user
+#   password: mysql user's password
+#   host: mysql host name or ip
+#   port: mysql port, default is 3306
+#   database: name of the database used
+#   table: name of the table used
+
+database:
+  type: sqlite
+  username: root
+  password: ''
+  host: localhost
+  port: 3306
+  database: rc_db
+  table: rc_tbl
